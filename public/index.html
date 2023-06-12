@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vlq4hrp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-63784X33S7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-63784X33S7');
+    </script>
+</head>
+<body>
+<div id="loading-screen">
+
+    <p style="padding: 0 20%">Please note this website is still under development and will soon be gamified (you will be
+        able to play a game as you explore it).</p>
+    <div class="loading-spinner"></div>
+    <button style="visibility: hidden" onclick="removeLoadScreen()">Continue</button>
+</div>
+<div id="instructions-screen">Only scrolling can you defeat monsters.</div>
+<nav>
+    <button class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <ul>
+        <li><a onclick="innerNavigateTo('design')">Design</a></li>
+        <li><a onclick="innerNavigateTo('software')">Software</a></li>
+        <li><a onclick="innerNavigateTo('audiovisual')">Audiovisual</a></li>
+        <li><a onclick="innerNavigateTo('personal-data')">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="foreground">
+    <section id="welcome">
+        <h1 id="specialty">Creative Technologist</h1>
+        <h2 id="birth-name">Xavier Font</h2>
+    </section>
+
+    <section id="design" class="skill">
+        <div class="section-content">
+            <div id="design-title-container" class="title-container">
+                <h1 id="design-title">UI Design</h1>
+                <h2 id="design-experience">12+ Design Projects Completed</h2>
+            </div>
+            <div class="middle-section">
+                <div class="degrees">
+                </div>
+                <div id="design-demos" class="demos-container">
+                    <!-- Design demos go here -->
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>Website</h3>
+                            <p>for a branch acquisition firm</p>
+                        </div>
+                        <div class="main-content">
+                            <iframe style="width: 100%; height: 100%" src="https://blobby.wsimg.com/go/d9de11f7-2353-4193-a579-9de67e73890f/Coming-Soon.pdf#toolbar=0">
+
+                                <p>Your browser does not support iframes,
+                                    <a href="assets/demo-media/TestPdf.pdf">click here to download the PDF file.</a></p>
+                            </iframe>
+                        </div>
+                        <a onclick="alert('Yet to be linked')">
+                            <p>Behance</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/51/51916.png">
+                        </a>
+                    </div>
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>Advertising Material</h3>
+                            <p>for a bank</p>
+                        </div>
+                        <div class="main-content">
+                            <iframe style="width: 100%; height: 100%"
+                                    src="https://blobby.wsimg.com/go/d9de11f7-2353-4193-a579-9de67e73890f/Coming-Soon.pdf#toolbar=0">
+                                <p>Your browser does not support iframes,
+                                    <a href="assets/demo-media/TestPdf.pdf">click here to download the PDF file.</a></p>
+                            </iframe>
+                        </div>
+                        <a onclick="alert('Yet to be linked')">
+                            <p>Behance</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/51/51916.png">
+                        </a>
+                    </div>
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>Pitch Presentation</h3>
+                            <p>for a health startup</p>
+                        </div>
+                        <div class="main-content">
+                            <iframe style="width: 100%; height: 100%"
+                                    src="https://blobby.wsimg.com/go/d9de11f7-2353-4193-a579-9de67e73890f/Coming-Soon.pdf#toolbar=0">
+
+                                <p>Your browser does not support iframes,
+                                    <a href="assets/demo-media/TestPdf.pdf">click here to download the PDF file.</a></p>
+                            </iframe>
+                        </div>
+                        <a onclick="alert('Yet to be linked')">
+                            <p>Behance</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/51/51916.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-container">
+                <div class="tools-category">
+                    <h3 class="category-title">UI/UX Design and Prototyping</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Figma.webp">
+                            <h4 class="tool-name">Figma</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Xd.webp">
+                            <h4 class="tool-name">Adobe XD</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/InVision.webp">
+                            <h4 class="tool-name">InVision</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Zeplin.webp">
+                            <h4 class="tool-name">Zeplin</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Graphic Design & Illustration</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Illustrator.webp">
+                            <h4 class="tool-name">Illustrator</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Photoshop.webp">
+                            <h4 class="tool-name">Photoshop</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Gimp.webp">
+                            <h4 class="tool-name">Gimp</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Inkscape.webp">
+                            <h4 class="tool-name">Inkscape</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Blender.webp">
+                            <h4 class="tool-name">Blender</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Motion Graphics</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/After-Effects.webp">
+                            <h4 class="tool-name">After Effects</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Blender.webp">
+                            <h4 class="tool-name">Blender</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Premiere-Pro.webp">
+                            <h4 class="tool-name">Premiere Pro</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="development" class="skill">
+        <div class="section-content">
+            <div id="development-title-container" class="title-container">
+                <h1 id="dev-title">Full Stack Development</h1>
+                <h2 id="dev-experience">2 Million Lines of Code Written</h2>
+            </div>
+            <div class="middle-section">
+                <div class="degrees">
+
+                </div>
+                <div id="development-demos" class="demos-container">
+                    <!-- Development demos go here -->
+                    <div class="demo" id="video-call">
+                        <div class="demo-head">
+                            <h3>Video Call Me</h3>
+                            <p>I will pick up right now.</p>
+                        </div>
+                        <div class="main-content">
+                            <button onclick="createCall()" id="callButton">Call</button>
+                            <div class="loading-spinner"></div>
+                            <video id="remoteVideo" autoplay></video>
+                        </div>
+                        <a href="https://github.com/Xavifontv" target="_blank">
+                            <p>Github</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                        </a>
+                    </div>
+                    <div class="demo" id="text-to-video">
+                        <div class="demo-head">
+                            <h3>Text To Video</h3>
+                            <p>Enter a script, get a video</p>
+                        </div>
+                        <div class="main-content">
+                            <div class="form-container">
+                                <input type="text" id="script_input" name="script_input" placeholder="Your script...">
+                                <input onclick="textToVideoFetch()" type="submit"
+                                       id="submitBtn" value="Submit">
+                            </div>
+                            <div class="loading-spinner"></div>
+                            <div class="result"></div>
+                        </div>
+                        <a href="https://github.com/Xavifontv/Text-To-Video" target="_blank">
+                            <p>Github</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                        </a>
+                        <dialog id="text-to-video-dialog">
+                            <div></div>
+                            <button>See Payload For Your Script Here</button>
+                            <br>
+                            <button onclick="document.querySelector('dialog').close()">Close</button>
+                        </dialog>
+                    </div>
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>Coming Soon...</h3>
+                            <p>Coming soon...</p>
+                        </div>
+                        <div class="main-content">
+                            <p>Coming soon...</p>
+                            <div class="result"></div>
+                        </div>
+                        <a href="https://github.com/Xavifontv" target="_blank">
+                            <p>Github</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-container">
+                <div class="tools-category">
+                    <h3 class="category-title">Web</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Html.webp">
+                            <h4 class="tool-name">HTML</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/CSS.webp">
+                            <h4 class="tool-name">CSS</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/JS.webp">
+                            <h4 class="tool-name">JavaScript</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/TS.webp">
+                            <h4 class="tool-name">TypeScript</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools-category">
+                    <h3 class="category-title">Mobile</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Swift.webp">
+                            <h4 class="tool-name">Swift</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/SwiftUI.webp">
+                            <h4 class="tool-name">SwiftUI</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Kotlin.webp">
+                            <h4 class="tool-name">Kotlin</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Jetpack-Compose.webp">
+                            <h4 class="tool-name">Jetpack Compose</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Server</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Nginx.webp">
+                            <h4 class="tool-name">Nginx</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/NodeJS.webp">
+                            <h4 class="tool-name">NodeJS</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Express.webp">
+                            <h4 class="tool-name">Express</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Python.webp">
+                            <h4 class="tool-name">Python</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Java.webp">
+                            <h4 class="tool-name">Java</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Spring-Boot.webp">
+                            <h4 class="tool-name">Spring Boot</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Rust.webp">
+                            <h4 class="tool-name">Rust</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Actix-Web.webp">
+                            <h4 class="tool-name">Actix Web</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools-category">
+                    <h3 class="category-title">Client-server communication protocols & tools</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/HTTP.webp">
+                            <h4 class="tool-name">HTTP(S)</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/REST.webp">
+                            <h4 class="tool-name">Rest</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Authentication</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/JWT.webp">
+                            <h4 class="tool-name">JWT</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/OAuth.webp">
+                            <h4 class="tool-name">Oauth</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Real-time communication</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/WebSocket.webp">
+                            <h4 class="tool-name">Web Sockets</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/SSE.webp">
+                            <h4 class="tool-name">SSE</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/WebRTC.webp">
+                            <h4 class="tool-name">WebRTC</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Message Brokers</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/RabbitMQ.webp">
+                            <h4 class="tool-name">RabbitMQ</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Apache-Kafka.webp">
+                            <h4 class="tool-name">Apache Kafka</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Continuous Integration/Continuous Deployment</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Git.webp">
+                            <h4 class="tool-name">Git</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/GitHub.webp">
+                            <h4 class="tool-name">GitHub</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Containerization and Virtualization</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Docker.webp">
+                            <h4 class="tool-name">Docker</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Kubernetes.webp">
+                            <h4 class="tool-name">Kubernetes</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/VirtualBox.webp">
+                            <h4 class="tool-name">VirtualBox</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/GCP.webp">
+                            <h4 class="tool-name">Google Cloud Platform</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Digital-Ocean.webp">
+                            <h4 class="tool-name">Digital Ocean</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Linux and shell scripting</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Bash.webp">
+                            <h4 class="tool-name">Bash</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Linux.webp">
+                            <h4 class="tool-name">Linux</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Fedora.webp">
+                            <h4 class="tool-name">Fedora</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Ubuntu.webp">
+                            <h4 class="tool-name">Ubuntu</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Databases and data-related technologies</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/MySQL.webp">
+                            <h4 class="tool-name">MySQL</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/MongoDB.webp">
+                            <h4 class="tool-name">MongoDB</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Cassandra.webp">
+                            <h4 class="tool-name">Cassandra</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/HadoopHDFS.webp">
+                            <h4 class="tool-name">Hadoop HDFS</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/MapReduce.webp">
+                            <h4 class="tool-name">Map-reduce</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Apache-Spark.webp">
+                            <h4 class="tool-name">Apache Spark</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Logstash.webp">
+                            <h4 class="tool-name">Logstash</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Fluentd.webp">
+                            <h4 class="tool-name">Fluentd</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Elastic-Search.webp">
+                            <h4 class="tool-name">Elasticsearch</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Cache technologies</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Memcache.webp">
+                            <h4 class="tool-name">Memcached</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Redis.webp">
+                            <h4 class="tool-name">Redis</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Security Tools</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Cloudflare.webp">
+                            <h4 class="tool-name">Cloudflare</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Wireshark.webp">
+                            <h4 class="tool-name">Wireshark</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Testing</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Postman.webp">
+                            <h4 class="tool-name">Postman</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Selenium.webp">
+                            <h4 class="tool-name">Selenium</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/JUnit.webp">
+                            <h4 class="tool-name">JUnit</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Editors</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/NVim.webp">
+                            <h4 class="tool-name">NVim</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/JetBrains.webp">
+                            <h4 class="tool-name">Jetbrains Suite</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="film" class="skill">
+        <div class="section-content">
+            <div id="film-title-container" class="title-container">
+                <h1 id="film-title">Film, CGI, & Motion Graphics</h1>
+                <h2 id="film-experience">2.6 Million People Reached</h2>
+            </div>
+            <div class="middle-section">
+                <div class="degrees">
+
+                </div>
+
+                <div id="film-demos" class="demos-container">
+                    <!-- Film demos go here -->
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>Commercial</h3>
+                            <p>Producer</p>
+                        </div>
+                        <div class="main-content">
+                            <iframe src="https://www.youtube.com/embed/yqWX86uT5jM"
+                                    title="Coming soon Glitch video effects"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <a onclick="alert('Yet to be linked')">
+                            <p>IMDb</p>
+                            <img src="https://seeklogo.com/images/I/imdb-logo-5F0E6162D4-seeklogo.com.png">
+                        </a>
+                    </div>
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>Short Film</h3>
+                            <p>Coordinator (1st AD)</p>
+                        </div>
+                        <div class="main-content">
+                            <iframe src="https://www.youtube.com/embed/yqWX86uT5jM"
+                                    title="Coming soon Glitch video effects"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <a onclick="alert('Yet to be linked')">
+                            <p>IMDb</p>
+                            <img src="https://seeklogo.com/images/I/imdb-logo-5F0E6162D4-seeklogo.com.png">
+                        </a>
+                    </div>
+                    <div class="demo">
+                        <div class="demo-head">
+                            <h3>YouTube Video</h3>
+                            <p>Producer</p>
+                        </div>
+                        <div class="main-content">
+                            <iframe src="https://www.youtube.com/embed/yqWX86uT5jM"
+                                    title="Coming soon Glitch video effects"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <a onclick="alert('Yet to be linked')">
+                            <p>IMDb</p>
+                            <img src="https://seeklogo.com/images/I/imdb-logo-5F0E6162D4-seeklogo.com.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-container">
+                <div class="tools-category">
+                    <h3 class="category-title">Scripting & Development</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Final-Draft.webp">
+                            <h4 class="tool-name">Final Draft</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Celtex.webp">
+                            <h4 class="tool-name">Celtex</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Pre-Production</h3>
+                    <div class="tools">
+
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Microsoft-Project.webp">
+                            <h4 class="tool-name">Microsoft Project</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Movie-Magic-Budgeting.webp">
+                            <h4 class="tool-name">Movie Magic Budgeting</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Movie-Magic-Scheduling.webp">
+                            <h4 class="tool-name">Movie Magic Scheduling</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Final-Draft.webp">
+                            <h4 class="tool-name">Final Draft Tagger</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Studio-Binder.webp">
+                            <h4 class="tool-name">Studio Binder</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Celtex.webp">
+                            <h4 class="tool-name">Celtex</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Shot-Designer.webp">
+                            <h4 class="tool-name">Shot Designer</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Illustrator.webp">
+                            <h4 class="tool-name">Illustrator</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Casting-Networks.webp">
+                            <h4 class="tool-name">Casting Networks</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Production</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Arri.webp">
+                            <h4 class="tool-name">Camera & Lights</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Rode.webp">
+                            <h4 class="tool-name">Production Audio</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Audition.webp">
+                            <h4 class="tool-name">Adobe Audition</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/ScriptE.webp">
+                            <h4 class="tool-name">ScriptE</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Davinci-Resolve.webp">
+                            <h4 class="tool-name">DaVinci Resolve (Production Module)</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-category">
+                    <h3 class="category-title">Post-Production</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Premiere-Pro.webp">
+                            <h4 class="tool-name">Adobe Premiere Pro</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/After-Effects.webp">
+                            <h4 class="tool-name">Adobe After Effects</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Media-Composer.webp">
+                            <h4 class="tool-name">Avid Media Composer</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Pro-Tools.webp">
+                            <h4 class="tool-name">Pro Tools</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Blender.webp">
+                            <h4 class="tool-name">Blender</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Davinci-Resolve.webp">
+                            <h4 class="tool-name">DaVinci Resolve</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Photoshop.webp">
+                            <h4 class="tool-name">Adobe Photoshop</h4>
+                        </div>
+                        <div class="tool">
+                            <img class="tool-icon" src="assets/Web-Optimized/tool-icons/Subtitle-Edit.webp">
+                            <h4 class="tool-name">Subtitle Edit</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="personal-data">
+        <div class="section-content">
+            <div class="personal-data-container">
+                <div class="personal-data-item" style="grid-area: area1">
+                    <img src="assets/Web-Optimized/Personal-Data-Screen/profile-image.webp" alt="Xavier Font Photo">
+                </div>
+                <div class="personal-data-item" style="grid-area: area2;">
+                    <p>Xavier Font</p>
+                    <p>24 Years Old</p>
+                    <p>Toronto, Ontario</p>
+                </div>
+                <div class="personal-data-item" style="grid-area: area3;"></div>
+                <div class="personal-data-item" style="grid-area: area4;"></div>
+                <div class="personal-data-item" style="grid-area: area5;">
+
+
+                </div>
+                <div class="personal-data-item" style="grid-area: area6;">
+                    <img class="institution-logo"
+                         src="assets/Web-Optimized/Personal-Data-Screen/YU-Logo.webp"
+                         alt="Yorkville University Logo">
+                    <p class="subject">Project Mgmt</p>
+                    <p class="type">BBA (2022)</p>
+
+                </div>
+                <div class="personal-data-item" style="grid-area: area9;">
+
+                    <img class="institution-logo"
+                         src="assets/Web-Optimized/Personal-Data-Screen/TFS-Logo.webp"
+                         alt="Toronto Film School Logo">
+                    <p class="subject">Film Production</p>
+                    <p class="type">Advanced Diploma (2020)</p>
+                </div>
+                <div class="personal-data-item" style="grid-area: area7;">
+                    <p>www.xavierfont.com</p>
+                    <p>xavierfont@xavierfont.com</p>
+                    <p>(647) 244 1177</p>
+                    <!-- Calendly link widget begin -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
+                            async></script>
+                    <a href=""
+                       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/xavierfont/interview'});return false;">Schedule
+                        time with me</a>
+                    <!-- Calendly link widget end -->
+                </div>
+                <div class="personal-data-item" style="grid-area: area8;">
+                    <ul style="visibility: hidden">
+                        <li>Skills
+                            <ul>
+                                <li>Comprehensive Design</li>
+                                <li>Full-Stack Web and Mobile Development</li>
+                                <li>Film/Video Filmmaking</li>
+                                <li>Project Management & Coordination</li>
+                            </ul>
+                        </li>
+                        <li>Soft Skills
+                            <ul>
+                                <li>Strong Communication</li>
+                                <li>Creativity</li>
+                                <li>Problem-Solving</li>
+                                <li>Teamwork</li>
+                                <li>Time Management</li>
+                            </ul>
+                        </li>
+                        <li>Languages
+                            <ul>
+                                <li>English</li>
+                                <li>Spanish</li>
+                                <li>Chinese</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+<div id="background-scene">
+    <img id="island-clear" class="nature-view-asset" src="assets/Web-Optimized/background-art/environment.webp"/>
+    <img id="monster-transparent" class="nature-view-asset" src="assets/Web-Optimized/background-art/monster.webp"/>
+    <img id="island-with-monster" class="nature-view-asset" src="assets/Web-Optimized/background-art/environment-with-monster.webp"/>
+    <img id="cliff" class="nature-view-asset" src="assets/Web-Optimized/background-art/cliff.webp" draggable="false"/>
+    <img id="hero" class="nature-view-asset" src="assets/Web-Optimized/background-art/hero.webp" draggable="false"/>
+
+
+</div>
+</body>
+</html>

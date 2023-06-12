@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+    <script src="https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js"></script>
+</head>
+<body>
+<video id="remoteVideo" autoplay></video>
+<script>
+    var url = new URL(window.location.href);
+
+    // Get the value of the "id" parameter
+    var peerID = url.searchParams.get("id");
+
+    var peer = new Peer(); // create a new peer instance
+
+    peer.on('open', function(id) {
+        console.log('My peer ID is: ' + id);
+    });
+
+
+        navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+            .then(stream => {
+                var call = peer.call(peerID, stream);
+
+                call.on('stream', function(remoteStream) {
+                    // Show stream in some video/canvas element.
+                    const remoteVideo = document.getElementById('remoteVideo');
+                    remoteVideo.srcObject = remoteStream;
+                    remoteVideo.onloadedmetadata = function(e) {
+                        remoteVideo.play();
+                    };
+                });
+            })
+            .catch(error => {
+                console.error('Error accessing media devices:', error);
+            });
+</script>
+</body>
+</html>
