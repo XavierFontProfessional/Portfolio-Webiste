@@ -507,7 +507,7 @@ function textToVideoFetch() {
     spinner.style.display = "block";
     ttsDialog.querySelectorAll("button")[0].style.display = "inline-block";
 
-    const url = 'https://codemty.net/video_instructions';
+    const url = 'https://ttv.xavierfont.com/video_instructions';
     const data = {
         "script": document.querySelector("#script_input").value,
         "renderEngine": "SentenceAO",
