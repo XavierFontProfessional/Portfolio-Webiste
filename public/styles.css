@@ -343,6 +343,7 @@ section#welcome h2 {
     height: 80%;
     width: 100%;
     text-align: center; /* centers text within the .main-content */
+    position: relative;
 }
 
 #video-call .main-content {
