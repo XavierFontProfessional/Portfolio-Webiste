@@ -590,3 +590,11 @@ function textToVideoFetch() {
 
 
 }
+
+//// TEMPORARY CODE
+document.querySelector("#et-container button:nth-of-type(2)").style.display = "none";
+document.querySelector("#et-container button:nth-of-type(3)").style.display = "none";
+document.querySelector("#et-container:nth-child(1)").addEventListener("click", () => {
+    document.querySelector("#et-container button:nth-of-type(2)").style.display = "inline";
+    document.querySelector("#et-container button:nth-of-type(3)").style.display = "inline";
+})
