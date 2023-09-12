@@ -1,9 +1,5 @@
 window.addEventListener('load', function () {
-    const button = document.getElementById('loading-screen').querySelector("button");
-    const spinner = document.querySelector(".loading-spinner");
-
-    spinner.style.visibility = "hidden";
-    button.style.visibility = "visible";
+    removeLoadScreen()
 
 });
 
