@@ -1,6 +1,5 @@
 window.addEventListener('load', function () {
     removeLoadScreen()
-
 });
 
 function removeLoadScreen() {
